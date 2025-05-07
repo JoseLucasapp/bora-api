@@ -8,6 +8,8 @@ import groupsRouter from "./routes/groups";
 
 mongoose.Promise = global.Promise
 mongoose.connect(process.env.MONGO_URI as string)
+    .then(() => console.log('MongoDB conectado com sucesso!'))
+    .catch((err) => console.error('Erro ao conectar ao MongoDB:', err));
 
 const PORT = process.env.PORT || 8000;
 
