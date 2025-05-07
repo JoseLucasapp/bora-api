@@ -16,8 +16,9 @@
   "main": "src/app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/app.ts",
-    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/app.ts"
+    "start": "ts-node src/app.ts",
+    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/app.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "cors": "^2.8.5",

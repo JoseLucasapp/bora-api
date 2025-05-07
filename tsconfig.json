@@ -1,7 +1,5 @@
 {
     "compilerOptions": {
-        "target": "es2016",
-        "module": "commonjs",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "strict": true,
@@ -9,5 +7,10 @@
         "allowJs": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "moduleResolution": "node",
+        "target": "ES6",
+        "module": "commonjs",
     }
 }
