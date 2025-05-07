@@ -1,0 +1,39 @@
+{
+  "name": "bora-api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/JoseLucasapp/bora-api#readme",
+  "bugs": {
+    "url": "https://github.com/JoseLucasapp/bora-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseLucasapp/bora-api.git"
+  },
+  "license": "ISC",
+  "author": "joselucasapp",
+  "type": "commonjs",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/app.ts",
+    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/app.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/mongoose": "^5.11.96",
+    "ts-node-dev": "^2.0.0"
+  }
+}
